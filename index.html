@@ -18,18 +18,22 @@
        <label>Male <input type="radio" name="gender_field" value="male"></label>
        <label>Female <input type="radio" name="gender_field" value="female"></label>
       </div>	
-      <div><label>Age: <input size="85" type="text" name="age_field"></label></div>
-	 <div>Available Days </div>
+       <div>Age: </div>
+      <select name="age_field">
+        <option>Under 18</option>
+        <option>Over 18</option>
+      </select>
 	 </fieldset>
-	     <fieldset>
+	 <div>Available Days </div>
+	  <fieldset>
   <div>
-    <label>Monday<input type=“checkbox" name=“chbox_field" value=""></label>
-    <label>Tuesday<input type=“checkbox" name=“chbox_field" value=""></label>
-    <label>Wednesday<input type=“checkbox" name=“chbox_field" value=""></label>
-    <label>Thursday<input type=“checkbox" name=“chbox_field" value=""></label>
-    <label>Friday<input type=“checkbox" name=“chbox_field" value=""></label>
-    <label>Saturday<input type=“checkbox" name=“chbox_field" value=""></label>
-    <label>Sunday<input type=“checkbox" name=“chbox_field" value=""></label>
+    <div><label>Sunday <input type="checkbox" name="available_field[]" value="sunday"></label></div>
+    <div><label>Monday <input type="checkbox" name="available_field[]" value="monday"></label></div>
+    <div><label>Tuesday <input type="checkbox" name="available_field[]" value="tuesday"></label></div>
+    <div><label>Wednesday <input type="checkbox" name="available_field[]" value="wednesday"></label></div>
+    <div><label>Thursday <input type="checkbox" name="available_field[]" value="thursday"></label></div>
+    <div><label>Friday <input type="checkbox" name="available_field[]" value="friday"></label></div>
+    <div><label>Saturday <input type="checkbox" name="available_field[]" value="saturday"></label></div>
 	 </div>
 	     </fieldset>
 
